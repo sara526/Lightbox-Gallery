@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item{
+    position: relative;
+}
+.item .item-cap{
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+}
+.item-cap h2{
+    color: rgb(255, 140, 0);
+}
+div .light-box-container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.light-box-item{
+    width: 50%;
+    height: 500px;
+    background-color: bisque;
+}
