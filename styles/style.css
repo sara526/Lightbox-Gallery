@@ -28,13 +28,12 @@
 .light-box-item{
     width: 50%;
     height: 70%;
-    background-image: url(../imgas/landingimg.jpg);
+    background-image: url(../imgas/bakery.jpg);
     background-size: 100% 100%;
     background-position: center;
     border-radius: 10px;
     position: relative;  
 }
-
 #prevBtn, #nextBtn {
     position: absolute;
     color: white;
@@ -49,7 +48,6 @@
 #nextBtn {
     right: 15px; 
 }
-
 #closeBtn {
     position: absolute;
     top: 15px;
