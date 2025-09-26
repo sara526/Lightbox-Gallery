@@ -6,7 +6,7 @@
 .item{
     position: relative;
 }
-.item .item-cap{
+.item-cap{
     position: absolute;
     bottom: 20px;
     left: 10%;
@@ -16,16 +16,48 @@
 .item-cap h2{
     color: rgb(255, 140, 0);
 }
-div .light-box-container{
+.light-box-container{
     position: fixed;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.603);
+    z-index: 9999;
 }
 .light-box-item{
     width: 50%;
-    height: 500px;
-    background-color: bisque;
+    height: 70%;
+    background-image: url(../imgas/landingimg.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;  
+}
+
+#prevBtn, #nextBtn {
+    position: absolute;
+    color: white;
+    font-size: 2.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background: rgba(0,0,0,0.5);
+    padding: 8px 10px;
+    border-radius: 50%;
+}
+#nextBtn {
+    right: 15px; 
+}
+
+#closeBtn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    background: rgba(0,0,0,0.5);
+    padding: 8px 10px;
+    border-radius: 50%;
 }

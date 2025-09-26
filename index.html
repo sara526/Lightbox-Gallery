@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./imgas/letter-g_14027581.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-TuD7VJ+yra61yl6zl/XSr/vYFq3HwG+jpCe9Z4YIuCHbbK2qa6G+FslTYErq3+TsjmYfH/H+KbNxEy6vIz5iZA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/bootStrap5/css/bootstrap.min.css">
     <title>Lightbox Gallery</title>
@@ -47,7 +47,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="item">
-                        <img src="./imgas/landingimg.jpg" alt="Protfolio image" class="w-100 img-fluid fixed-size rounded-3">
+                        <img src="./imgas/landingimg.jpg" alt="image-5 Protfolio" class="w-100 img-fluid fixed-size rounded-3">
                         <div class="item-cap">
                             <h2 class="fs-5">Jam Protfolio</h2>
                         </div>
@@ -55,7 +55,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="item">
-                        <img src="./imgas/watch.jpg" alt="watch E-commerce" class="w-100 img-fluid fixed-size rounded-3">
+                        <img src="./imgas/image-600x400-3.jpg" alt="image-6 E-commerce" class="w-100 img-fluid fixed-size rounded-3">
                         <div class="item-cap">
                             <h2 class="fs-5">E-commerce Website</h2>
                         </div>
@@ -63,11 +63,11 @@
                 </div>
             </div>
         </section> 
-        <div class="light-box-container d-flex justify-content-center align-items-center"> <!--d-none-->
-            <div class="light-box-item d-flex justify-content-between align-items-center">
-                <i class="fa-solid fa-arrow-right"></i>
-                <i class="fa-solid fa-square-xmark"></i>
-                <i class="fa-solid fa-arrow-left"></i>
+        <div class="light-box-container d-none justify-content-center align-items-center">
+            <div class="light-box-item p-3 d-flex position-relative justify-content-between align-items-center">
+                <i id="prevBtn" class="fa-solid fa-arrow-left"></i>
+                <i id="closeBtn" class="fa-solid fa-xmark"></i>
+                <i id="nextBtn" class="fa-solid fa-arrow-right"></i>  
             </div>
         </div>    
     </main>
